@@ -13,21 +13,14 @@ end
 
 # load external packages -
 using DataFrames
-using CSV
 using Dates
 using LinearAlgebra
 using Statistics
 using Plots
-using Colors
-using StatsPlots
 using JLD2
-using FileIO
 using Distributions
-using Distances
-using DataStructures
 using PrettyTables
 using StatsBase
-using KernelFunctions
 using HypothesisTests
 using ShiftedArrays
 using GLM
