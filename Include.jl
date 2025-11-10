@@ -12,6 +12,7 @@ if (isfile(joinpath(_ROOT, "Manifest.toml")) == false) # have manifest file, we 
 end
 
 # load external packages -
+# using IJulia
 using DataFrames
 using Dates
 using LinearAlgebra
