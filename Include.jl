@@ -12,7 +12,7 @@ if (isfile(joinpath(_ROOT, "Manifest.toml")) == false) # have manifest file, we 
 end
 
 # load external packages -
-# using IJulia
+using IJulia
 using DataFrames
 using Dates
 using LinearAlgebra
@@ -27,6 +27,7 @@ using ShiftedArrays
 using GLM
 using SCS
 using JuMP
+using Printf
 
 # load my codes -
 include(joinpath(_PATH_TO_SRC, "Files.jl"));
