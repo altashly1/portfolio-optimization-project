@@ -1,0 +1,8 @@
+--- Out-of-Sample Performance Comparison ---
+3×4 DataFrame
+ Row │ Metric                      Robust     Classical  SPY_Benchmark
+     │ String                      Float64    Float64    Float64
+─────┼─────────────────────────────────────────────────────────────────
+   1 │ Out-of-Sample Sharpe Ratio    1.70821    2.04619        1.77544
+   2 │ Total Return (%)            111.545     56.2844        27.5982
+   3 │ Annualized Volatility (%)    37.9233    18.1499        10.4889
