@@ -1,0 +1,9 @@
+--- Out-of-Sample Performance Comparison (ω = 0.05) ---
+┌────────────────────────────┬─────────┬───────────┬───────────────┐
+│ Metric                     │ Robust  │ Classical │ SPY_Benchmark │
+│ String                     │ Float64 │ Float64   │ Float64       │
+├────────────────────────────┼─────────┼───────────┼───────────────┤
+│ Out-of-Sample Sharpe Ratio │ 2.01    │ 2.05      │ 1.78          │
+│ Total Return (%)           │ 57.91   │ 56.28     │ 27.60         │
+│ Annualized Volatility (%)  │ 18.96   │ 18.15     │ 10.49         │
+└────────────────────────────┴─────────┴───────────┴───────────────┘
