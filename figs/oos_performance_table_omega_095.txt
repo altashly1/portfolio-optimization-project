@@ -1,7 +1,7 @@
 --- Out-of-Sample Performance Comparison (ω = 0.95) ---
 ┌────────────────────────────┬─────────┬───────────┬───────────────┐
 │ Metric                     │ Robust  │ Classical │ SPY_Benchmark │
-│ String                     │ Float64 │ Float64   │ Float64       │
+│                            │         │           │               │
 ├────────────────────────────┼─────────┼───────────┼───────────────┤
 │ Out-of-Sample Sharpe Ratio │ 1.71    │ 2.05      │ 1.78          │
 │ Total Return (%)           │ 111.54  │ 56.28     │ 27.60         │
