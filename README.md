@@ -25,10 +25,3 @@ The project is implemented in **Julia v1.12**. The following packages are requir
 * `DataFrames.jl` & `CSV.jl` (Data manipulation)
 * `Statistics.jl` & `LinearAlgebra.jl` (Mathematical operations)
 * `Plots.jl` (Visualization of efficient frontiers and wealth accumulation)
-
-### Installation
-To install the necessary dependencies, open the Julia REPL and run:
-
-```julia
-import Pkg
-Pkg.add(["JuMP", "SCS", "DataFrames", "CSV", "Plots", "StatsBase"])
